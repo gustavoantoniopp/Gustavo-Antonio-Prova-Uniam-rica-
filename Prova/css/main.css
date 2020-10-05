@@ -1,0 +1,79 @@
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #FF6978;
+    display: flex;
+    padding: 20px;
+}
+.logo img{
+    height: 50px;
+}
+.opts{
+    display: flex;
+    margin-left: 900px;
+}
+.opts li a{
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.page{
+    background: url(https://biglotteryfund.files.wordpress.com/2013/01/050-17-01-12.jpg);
+    background-size: cover;
+    padding-bottom: 1000px;
+    filter:contrast(75%);
+}
+.page h1{
+    font-size: 50px;
+    background-color: rgba(247, 179, 43, 0.8);
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 25%;
+}
+#footer{
+    background-color: rgba(247, 179, 43); 
+    display: flex;
+    justify-content: space-between;
+}
+#contact{
+    padding: 10px;
+    margin-left: 30px;
+}
+#contact h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+}
+#contact li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+#copyright p{
+    line-height: 40px;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    background-color: #FF6978;
+}
+#social{
+    margin-right: 20px;
+}
+#social img{
+    height: 40px;
+    padding-top: 10px;
+}
+
